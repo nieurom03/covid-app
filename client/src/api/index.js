@@ -9,8 +9,9 @@ export const getReportByCountry = (slug) =>   axios.get(
       .format()}`
   );
 
-// export const vnexpressByDay = () => axios.get(`https://vnexpress.net/microservice/sheet/type/covid19_2021_by_day`);
+// export const vnexpressByDay = () => axios.get(`https://static.pipezero.com/covid/data.json`);
 export const getMapDataByCountryId = (countryId) =>
   import(
     `@highcharts/map-collection/countries/${countryId}/${countryId}-all.geo.json`
   );
+
