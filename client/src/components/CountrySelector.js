@@ -5,8 +5,6 @@ import {FormControl, FormHelperText, InputLabel, NativeSelect} from '@material-u
 
 export default function CountrySelector({value, handleOnChange, countries}) {
 
-    
-
     return (
         <FormControl>
             <InputLabel htmlFor="select-country" shrink>Quốc gia</InputLabel>

@@ -15,8 +15,6 @@ export default function Highlight({summary}) {
                 ))
             }
             
-                
-            
         </Grid>
     )
 }
